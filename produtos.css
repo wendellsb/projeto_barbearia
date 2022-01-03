@@ -84,7 +84,16 @@ p {
     font-weight: bold;
     margin:10px 0 0;
 }
+
 footer {
     text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin:20px 0 0;
 }
 
