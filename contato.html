@@ -22,20 +22,30 @@
         <main>
             <form>
                <label for="nomesobrenome">Nome</label>
-               <input type="text" id="nomesobrenome" placeholder="NOME COMPLETO"></imput> 
+               <input type="text" id="nomesobrenome" class="input-padrao" placeholder="NOME COMPLETO"></imput> 
 
                <label for="email">Email</label>
-               <input type="text" id="email" placeholder="XXXXXX@GMAIL.COM"></imput> 
+               <input type="text" id="email" class="input-padrao" placeholder="XXXXXX@GMAIL.COM"></imput> 
 
                <label for="telefone">Telefone</label>
-               <input type="text" id="telefone" placeholder="XX XXXX-XXXX"></imput> 
+               <input type="text" id="telefone" class="input-padrao" placeholder="XX XXXX-XXXX"></imput> 
                
                <label for="mensagem">Mensagem</label>
                <textarea cols="70" rows="10" id="mensagem"></textarea>
 
-               <input type="submit" value="Enviar Formulario">
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                            
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>  
+                </div>
 
-               Como prefere o nosso contato?
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Formulario">
+
                
             </form>
         </main>
