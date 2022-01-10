@@ -141,3 +141,20 @@ form label, form legend {
     transform: scale(1.2); /* Faz o aumento proprorcional com scale(numero)*/
     /* transform: rotate(70deg); inclinação */
 }
+
+table {
+    margin: 20px 0 20px;
+}
+
+thead {
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px; /* a primeira é o espaçamento pra cima e pra baixo e o segundo para lateral */
+}
+
+
