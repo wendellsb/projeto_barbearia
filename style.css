@@ -69,7 +69,7 @@ nav a:hover {
     font-size:25px;
 }
 
-.produtos h2 {
+.produtos h2 { /* selecionando através da tag que vai ser usada*/
     font-size: 30px;
     font-weight: bold;
 }
@@ -87,7 +87,7 @@ p {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("bg.jpg"); /* importando a imagem pelo css */
     padding: 40px 40px 0;
 }
 
@@ -106,7 +106,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display:block;
     font-size:20px;
     margin: 0 0 10px;
@@ -121,4 +121,21 @@ form label, form p {
 
 .checkbox {
     margin:20px 0;
+}
+
+.enviar {
+    width:40%; /* aumenta a largura */
+    padding: 15px 0; /* aumenta o espaçamento */
+    background:orange; /* muda a cor do fundo */ 
+    color: white; /* muda a cor da fonte */
+    font-weight: bold; /* fonte em negrito */
+    font-size:20px; /* tamanho da fonte*/
+    border:none; /* deixa sem borda padrão */
+    border-radius: 5px; /* deixa a borda arredondada */
+    transition: 1s background; /* muda o tempo da cor de fundo */
+    cursor: pointer; /* muda o cursor*/
+}
+
+.enviar:hover { /* hover - quando o mouse esta em cima*/
+    background: gray;
 }
