@@ -132,10 +132,12 @@ form label, form legend {
     font-size:20px; /* tamanho da fonte*/
     border:none; /* deixa sem borda padrão */
     border-radius: 5px; /* deixa a borda arredondada */
-    transition: 1s background; /* muda o tempo da cor de fundo */
+    transition: 1s all; /* muda o tempo da cor de fundo */
     cursor: pointer; /* muda o cursor*/
 }
 
 .enviar:hover { /* hover - quando o mouse esta em cima*/
     background: gray;
+    transform: scale(1.2); /* Faz o aumento proprorcional com scale(numero)*/
+    /* transform: rotate(70deg); inclinação */
 }
