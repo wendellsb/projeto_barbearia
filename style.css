@@ -168,6 +168,8 @@ td, th{
     font-size: 2em; /* em significa o o tamanho proporcional em pixels */
     margin: 0 0 1em;
     clear: left; /* limpa o float da pagina */
+    /* color: rgba(0, 0, 0, 0.2); deixa opaco em modo rgb */
+    /* text-shadow: 2px 2px #FF0000; cria uma sombra no texto */
 }
  /* 
 bolocando a primeira linha em italico
@@ -233,6 +235,7 @@ bolocando a primeira linha em italico
 .beneficios {
     padding: 3em 0;
     background: #888888;
+    /* box-shadow:inset 0 0 30px #FF0000; sombra interna do elemento */
 }
 
 .conteudo-beneficios {
@@ -263,12 +266,21 @@ bolocando a primeira linha em italico
 
 .img-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000; /* pode ser utilizado mais de uma sombra sendo dividido por "," */
+    /* 1- X --- 2- Y --- 3-espalhamento da sombra ---  4- intensidade da borda --- 5- cor */
+}
+
+.img-beneficios:hover {
+    opacity: 0.4; /* deixa esfumaçado */
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
 }
+
 /*
 seleciona as tag "p" que são os filhos diretos
 main > p {
