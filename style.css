@@ -173,6 +173,25 @@ td, th{
     margin: 0 0 1em;
     clear: left; /* limpa o float da pagina */
 }
+ /* 
+bolocando a primeira linha em italico
+    p:first-line {
+        font-style: italic;
+    }
+*/
+
+.titulo_principal:first-letter { /* deixando a primeira letra em negrito  */
+    font-weight: bold;
+}
+/*
+.titulo_principal:before {
+    content: "[ ";
+}
+
+.titulo_principal:after {
+    content: " ]";
+}
+*/
 
 .principal {
     padding: 3m 0;
@@ -240,6 +259,10 @@ td, th{
     /* .itens:nth-child(4) - pseudo elemento pegando o numero indicado da lista */
     /* .itens:nth-child(2n) - pegando os numeros pares da lista */
     font-weight: bold;
+}
+
+.itens:before {
+    content: "✭";
 }
 
 .img-beneficios {
