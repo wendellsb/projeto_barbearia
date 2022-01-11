@@ -101,10 +101,6 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-    
- }
-
 form {
     margin: 40px 0;
 }
@@ -253,14 +249,14 @@ bolocando a primeira linha em italico
 .itens {
     line-height: 1.5; /* altura da linha */
 }
-
+/*
 .itens:first-child { 
-    /* first - pseudo elemento pegando o primeiro elemento da lista */
-    /* .itens:nth-child(4) - pseudo elemento pegando o numero indicado da lista */
-    /* .itens:nth-child(2n) - pegando os numeros pares da lista */
+     first - pseudo elemento pegando o primeiro elemento da lista
+    .itens:nth-child(4) - pseudo elemento pegando o numero indicado da lista
+    .itens:nth-child(2n) - pegando os numeros pares da lista
     font-weight: bold;
 }
-
+*/
 .itens:before {
     content: "✭";
 }
@@ -273,3 +269,24 @@ bolocando a primeira linha em italico
     width: 560px;
     margin: 2em auto;
 }
+/*
+seleciona as tag "p" que são os filhos diretos
+main > p {
+    background: red;
+}
+
+seleciona o primeiro paragrafo depois de uma imagem
+img + p {
+    background: blue;
+}
+
+seleciona todos os seletores depois de uma imagem
+img ~ p {
+    background: yellow;
+}
+
+eleciona todos que nao tem o id missao e deixa laranja
+.principal p:not(#missao) {
+    background: orange;
+}
+*/
