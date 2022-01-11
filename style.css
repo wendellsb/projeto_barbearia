@@ -304,7 +304,8 @@ eleciona todos que nao tem o id missao e deixa laranja
 */
 
 @media screen and (max-width: 480px) {
-  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, 
+  .titulo_principalm, form{
       width: auto;
   }
   
@@ -317,6 +318,27 @@ eleciona todos que nao tem o id missao e deixa laranja
   }
 
   .lista-beneficios, .img-beneficios{
+      width: 100%;
+  }
+
+  .produtos{
+      width: 80%;  
+  }
+
+  .produtos li {
+      display: block;
+      width: 100%; 
+  }
+
+  .utensilios {
+      width: 50%;
+  }
+
+  #mensagem {
+      width: 90%;
+  }
+
+  table {
       width: 100%;
   }
 }
