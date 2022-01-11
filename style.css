@@ -29,7 +29,7 @@ nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -302,3 +302,21 @@ eleciona todos que nao tem o id missao e deixa laranja
     background: orange;
 }
 */
+
+@media screen and (max-width: 480px) {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+      width: auto;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+
+  nav {
+      position: static;
+  }
+
+  .lista-beneficios, .img-beneficios{
+      width: 100%;
+  }
+}
