@@ -201,6 +201,13 @@ td, th{
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888); /* faz o degrade de uma cor para a outra, caso queira mudar a direção usar o 90deg */
+    /* linear - reto, radial - circulo*/
+}
+
+.mapa-conteudo {
+    width: 1000px;
+    margin: 0 auto; 
 }
 
 .mapa p {
